@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Resume</title>
+    <script>
+        function sideMenu() {
+            var x = document.getElementById("idsidemenu");
+            if(x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            }
+            else{
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+    <style>
+        header{
+            text-align: center;
+            color:white;
+        }
+        #bout{
+            column-count: 2;
+            column-rule-width: 3px;
+            column-gap: 40px;
+            column-rule-style: solid;
+            text-align: justify;
+            font: size 14px;
+        }
+        footer{
+            font: size 10px;
+            text-align: center;
+            color:white;
+            padding: 40px;
+        }
+    </style>
+</head>
+
+<body class="w3-black w3-padding">
+    <div class="w3-bar w3-black">
+        <a href="#aboutMe" class="w3-bar-item w3-button w3-hide-small w3-right">About</a>
+        <a href="#education" class="w3-bar-item w3-button w3-hide-small w3-right">Education Background</a>
+        <a href="#personal" class="w3-bar-item w3-button w3-hide-small w3-right">Personal Skills</a>
+        <a href="#professional" class="w3-bar-item w3-button w3-hide-small w3-right">Professional Skills</a>
+        <a href="#speak" class="w3-bar-item w3-button w3-hide-small w3-right">Languages</a>
+        <a href="#achieveandrecog" class="w3-bar-item w3-button w3-hide-small w3-right">Achievements & Recognition</a>
+        <a href="#experience" class="w3-bar-item w3-button w3-hide-small w3-right">Experiences</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="sideMenu()">&#9776</a>
+    </div>
+
+    <div id="idsidemenu" class="w3-bar-block w3-flat-wet-asphalt w3-hide w3-hide-large w3-hide-medium">
+        <a href="#aboutMe" class="w3-bar-item w3-button w3-center">About</a>
+        <a href="#education" class="w3-bar-item w3-button w3-center">Education Background</a>
+        <a href="#personal" class="w3-bar-item w3-button w3-center">Personal Skills</a>
+        <a href="#professional" class="w3-bar-item w3-button w3-center">Professional Skills</a>
+        <a href="#speak" class="w3-bar-item w3-button w3-center">Languages</a>
+        <a href="#achieveandrecog" class="w3-bar-item w3-button w3-center">Achievements & Recognition</a>
+        <a href="#experience" class="w3-bar-item w3-button w3-center">Experiences</a>
+    </div>
+    
+    <header>
+        <h1 class="w3-container w3-padding-32 w3-flat-wet-asphalt w3-wide" style="font-weight:bold; font: size 35px; width:100%; border:3px solid white"
+            >SYAFIQAH RAZAK </h1>
+        <div style="font-size:15px; font-weight:medium;">
+            <p>NUR AIN SYAFIQAH BINTI ABD RAZAK</p>
+            <p>+6012 - 405 7240 ||  a.syafiqahrazak@gmail.com</p>
+            <p>Damansara Damai, Petaling Jaya,  47830 Selangor</p>
+            <img src="mypic.jpg" style="width: 200px; height:200px; border-radius: 50%; border: 5px solid white">
+        </div>
+    </header>
+
+    <br>
+
+    <div id="aboutMe" class="w3-container w3-flat-wet-asphalt" style="width:100%; border:3px solid white">
+        <div>
+            <h5 class="w3-container w3-padding-12 w3-center w3-white w3-margin-top w3-margin-bottom" 
+            style="font-size:18px; font-weight:bold;" >ABOUT ME</h5>
+        </div>
+
+        <p id="bout">A student of Bachelor of Science (Information Technology) from
+            Universiti Utara Malaysia who has a passion for coding and
+            learning IT-related knowledge to be an excellent software
+            engineer in the future. I also like to share my knowledge with
+            others and also hoping to use the knowledge I have to develop
+            something that can help our communities. </p>
+    </div>
+
+    <br>
+
+    <div id="education" class="w3-container w3-row w3-flat-wet-asphalt " style="width:100%; border:3px solid white">
+        <div class="w3-container w3-third  w3-padding-12 w3-center w3-white w3-margin-top w3-margin-bottom ">
+            <h5 style="font-size:18px; font-weight:bold;" >EDUCATION BACKGROUND</h5>
+            <i class="material-icons">school</i>
+        </div>
+        <div class="w3-container w3-twothird">
+            <ul style="font-size:14px;">
+                <li>2020 - 2024 (Expected Graduation Date)
+                    <b><br>Bachelor of Science with Honours (Information Technology)</b>
+                    <br>Major : Software Engineering
+                    <br>Universiti Utara Malaysia
+                    <br>[Results / CGPA: 3.83]<br>
+                </li>
+                <br>
+                <li>2019 - 2020
+                    <b><br>Peperiksaan Semester Program Matrikulasi (PSPM)</b>
+                    <br>Stream: Science Stream (Module II)
+                    <br>Kolej Matrikulasi Negeri Sembilan
+                    <br>[Results / CGPA: 3.46]<br>
+                </li>
+                <br>
+                <li>2017 - 2018
+                    <b><br>Sijil Pelajaran Malaysia (SPM)</b>
+                    <br>Stream: Pure Science Stream
+                    <br>SMK Bandar Sri Damansara 2
+                    <br>[Results / CGPA: 4A's]<br>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="personal" class="w3-container w3-row w3-flat-wet-asphalt " style="width:100%; border:3px solid white">
+        <div class="w3-container w3-third  w3-padding-12 w3-center w3-white w3-margin-top w3-margin-bottom ">
+            <h5 style="font-size:18px; font-weight:bold;" >PERSONAL SKILLS</h5>
+            <i class="material-icons">engineering</i>
+        </div>
+
+        <div class="w3-container w3-twothird">
+            <ul style="font-size:14px;">
+                <li>Advance in leadership skills.</li>
+                <li>Advance in effective communication.</li>
+                <li>Advance in teamwork.</li>
+                <li>Advance in problem solving.</li>
+            </ul>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="professional" class="w3-container w3-row w3-flat-wet-asphalt w3-padding" style="width:100%; border:3px solid white">
+        <div class="w3-container w3-third  w3-padding-12 w3-center w3-white w3-margin-top w3-margin-bottom">
+            <h5 style="font-size:18px; font-weight:bold;" >PROFESSIONAL SKILLS</h5>
+            <i class="material-icons">code</i>
+        </div>
+
+        <div class="w3-container w3-twothird">
+            <ul style="font-size:14px;">
+                <li>JAVA</li>
+                <div class="w3-white w3-border"> 
+                    <div class="w3-black" style="height:12px; width:90%;"></div>
+                </div>
+                <li>Dart</li>
+                <div class="w3-white w3-border"> 
+                    <div class="w3-black" style="height:12px; width:50%;"></div>
+                </div>
+                <li>HTML/CSS</li>
+                <div class="w3-white w3-border"> 
+                    <div class="w3-black" style="height:12px; width:40%;"></div>
+                </div>
+                <li>Javascript</li>
+                <div class="w3-white w3-border"> 
+                    <div class="w3-black" style="height:12px; width:30%;"></div>
+                </div>
+                <li>Figma</li>
+                <div class="w3-white w3-border"> 
+                    <div class="w3-black" style="height:12px; width:66%;"></div>
+                </div>
+                <li>Canva</li>
+                <div class="w3-white w3-border"> 
+                    <div class="w3-black" style="height:12px; width:90%;"></div>
+                </div>
+                <li>Microsoft Word</li>
+                <div class="w3-white w3-border"> 
+                    <div class="w3-black" style="height:12px; width:95%;"></div>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="speak" class="w3-container w3-row w3-flat-wet-asphalt w3-padding" style="width:100%; border:3px solid white">
+        <div class="w3-container w3-third  w3-padding-12 w3-center w3-white w3-margin-top w3-margin-bottom">
+            <h5 style="font-size:18px; font-weight:bold;" >LANGUAGES</h5>
+            <i class="material-icons">language</i>
+        </div>
+            <div class="w3-container w3-twothird w3-padding-12 w3-margin-top w3-margin-bottom">
+                <ul style="font-size:14px;">
+                    <li>Bahasa Melayu [Native Speaker]</li>
+                    <li>English [Fluent]</li>
+                </ul>
+            <div>
+        </div>
+        </div>
+    </div>
+    
+    <br>
+
+    <div id="achieveandrecog" class="w3-container w3-flat-wet-asphalt w3-padding" style="width:100%; border:3px solid white">
+        <div class="w3-container w3-padding-12 w3-center w3-white w3-margin-top w3-margin-bottom">
+            <h5 style="font-size:18px; font-weight:bold;" >ACHIEVEMENTS & RECOGNITION</h5>
+            <i class="material-icons">emoji_events</i>
+            <i class="material-icons">verified</i>
+            </div>
+                <div class="w3-container w3-margin-bottom " style="overflow-x:auto;">
+                    <table class="w3-table w3-striped w3-border" style="font-size:12px;">
+                        <thead>
+                            <tr class="w3-white">
+                            <th>YEAR</th>
+                            <th>PROGRAM</th>
+                            <th>RESULT</th>
+                            </tr>
+                            <tr>
+                            <td>2021</td>
+                            <td>I-Tech Coding Jam</td>
+                            <td>Winner</td>
+                            </tr>
+                            <tr>
+                            <td>2021</td>
+                            <td>Hackathon Selangor Youth Skills</td>
+                            <td>Winner</td>
+                            </tr>
+                            <tr>
+                            <td>2021</td>
+                            <td>STIA1123 Teaching Buddy</td>
+                            </tr>
+                        </thead>
+                    </table>
+                <div>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+
+    <div id="experience" class="w3-container w3-row w3-flat-wet-asphalt w3-padding" style="width:100%; border:3px solid white">
+        <div class="w3-container w3-padding-12 w3-center w3-white w3-margin-top w3-margin-bottom">
+            <h5 style="font-size:18px; font-weight:bold;" >EXPERIENCES</h5>
+            <i class="material-icons">manage_history</i>
+        </div>
+        <div class="w3-row-padding">
+            <div class="w3-col s6 w3-justify">
+                <p style="font-size:14px; font-weight:bold">Hackathon Project Leader (SYS2021)</p>
+                <p style="font-size:12px;">Manage team to develop a sport theme mobile application.
+                    Help team to works as efficiently as possible until reach the end-goals.</p>
+            
+                </div>
+                    <div class="w3-col s6 w3-justify">
+                        <p style="font-size:14px; font-weight:bold;">Team Leader and Programmer (I-TECH Coding Jam)</p>
+                        <p style="font-size:12px;">Explain the flow of coding using JAVA programming language.
+                            Solve programming problem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Copyright SYAFIQAH RAZAK&copy; </p>
+        <a href="https://github.com/aensyaf" target="_blank">Visit my Github for more information on my resume code!</a>
+    </footer>
+</body>
+</html>
